@@ -5,7 +5,7 @@ const calculate = ()=>
     const sName = document.querySelector('#secondName').value;
 
     document.querySelector('.fname').innerHTML = fName;
-    document.querySelector('.love').innerHTML = "Loves";
+    document.querySelector('.love').innerHTML = "dan";
     document.querySelector('.sname').innerHTML = sName;
 
     let chars = `${fName}loves${sName}`.toUpperCase().split("");
